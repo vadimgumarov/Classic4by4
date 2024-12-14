@@ -1,0 +1,21 @@
+# Development
+node_modules/
+.env
+*.log
+
+# System files
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+# Wix specific
+.wix/
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+/test-results/
+/playwright-report/
+/playwright/.cache/.DS_Store
