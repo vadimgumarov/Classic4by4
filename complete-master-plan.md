@@ -1,346 +1,424 @@
-# Classic Car Restoration Website - Complete Master Plan
+# Classic4x4.com Wix Redesign - Revised Master Plan
 
-- Project Version: 1.0
-- Last Updated: December 11, 2024
-- Project Duration: 9 weeks
+- Project Version: 2.0
+- Last Updated: February 19, 2025
+- Project Duration: 5 weeks
 
 ## Table of Contents
 1. [Project Plan](#1-project-plan)
-2. [Detailed WIX Website Plan](#2-detailed-wix-website-plan)
+2. [Detailed Website Enhancement Plan](#2-detailed-website-enhancement-plan)
 3. [Project Schedule](#3-project-schedule)
-4. [GIT Progress Tracking](#4-git-progress-tracking)
+4. [Progress Tracking](#4-progress-tracking)
 5. [Project Structure](#5-project-structure)
+6. [Brand Implementation](#6-brand-implementation)
 
 ## 1. Project Plan
 
 ### 1.1 Overview
-A sophisticated portfolio website showcasing restored vehicles, targeting high-end clients including collectors, classic car enthusiasts, and 4x4 enthusiasts. The website serves as a gallery of completed works with direct auction platform integration.
+An enhancement of the existing Classic4x4.com Wix website to adopt a premium, sophisticated aesthetic while implementing the Retrokraft brand identity. The redesigned website will showcase our restored vehicles with an elegant, high-end presentation to attract discerning collectors and enthusiasts.
+
+#### Design Transformation
+- **Primary Reference**: [Classic Car Studio](https://classiccarstudio.com) - We will adapt their sophisticated layout, navigation structure, and premium presentation style within Wix constraints
+- **Current Site**: [Classic4x4.com](https://classic4x4.com) - Maintaining our specialized 4x4 content and technical expertise while upgrading the visual presentation
+- **Brand Implementation**: Application of Retrokraft brand colors, typography, and design elements through Wix customization options
 
 ### 1.2 Project Scope
-**Total Timeline:** 9 weeks (189-230 hours with buffer)  
+**Total Timeline:** 5 weeks (50 hours)  
 **Daily Commitment:** 2 hours (3PM - 5PM)  
-**Primary Platform:** Wix  
-**Testing Framework:** Playwright
+**Platform:** Wix with enhanced customization  
+**Testing Framework:** Wix mobile viewer and browser testing
 
 ### 1.3 Target Audience
+Our audience remains the same, but the presentation will better appeal to high-end collectors:
 - Wealthy, middle-aged automotive enthusiasts
-- Classic car collectors
-- 4x4 enthusiasts
-- Potential restoration clients
+- Classic 4x4 collectors and investors
+- Vintage Land Rover, Toyota Land Cruiser, and Jeep enthusiasts
+- Expedition and overland travel enthusiasts
+- Off-road capability-focused buyers
+- Restoration clients seeking premium adventure-ready classics
 - Automotive investment community
 
 ### 1.4 Development Phases
 
-#### Phase 1: Learning & Setup (15-20 hours)
-- Web development fundamentals
-- Wix platform mastery
-- Git basics
-- Testing framework setup
+#### Phase 1: Analysis & Planning (10 hours)
+- Audit current Wix template capabilities and limitations
+- Document customization options available
+- Create brand implementation plan within Wix constraints
+- Explore premium Wix apps for enhanced functionality
+- Finalize enhancement strategy with prioritized changes
 
-#### Phase 2: Foundation (30-35 hours)
-- Website structure implementation
-- Basic design system setup
-- Homepage development
-- Portfolio grid layout
+#### Phase 2: Brand Implementation (10 hours)
+- Upload and implement Retrokraft logos
+- Update color palette in Wix theme settings
+- Implement typography changes (Poppins & Roboto)
+- Adjust button styles and UI elements to match brand
+- Review and refine visual identity implementation
 
-#### Phase 3: Core Features (40-45 hours)
-- Photo gallery implementation
-- Filtering system
-- Auction integration
-- Contact form setup
+#### Phase 3: Layout Enhancement (10 hours)
+- Enhance homepage hero section
+- Refine vehicle listing grid layout 
+- Improve individual vehicle detail pages
+- Update about/services pages with premium layout
+- Optimize navigation and footer styling
 
-#### Phase 4: Content & Testing (40-45 hours)
-- Content population
-- Image optimization
-- Performance testing
-- Mobile responsiveness verification
+#### Phase 4: Content Enhancement (10 hours)
+- Implement improved gallery functionality
+- Create consistent vehicle card presentation
+- Enhance vehicle specifications display
+- Improve forms and interactive elements
+- Refine call-to-action placement and styling
 
-#### Buffer Time (44-53 hours)
-- 30% additional time allocated for learning curve
-- Issue resolution
-- Unexpected challenges
+#### Phase 5: Testing & Refinement (10 hours)
+- Mobile responsiveness testing and adjustments
+- Cross-browser testing
+- Content review and refinement
+- Performance optimization within Wix
+- Final review and publication
 
-## 2. Detailed WIX Website Plan
+## 2. Detailed Website Enhancement Plan
 
-### 2.1 Technical Specifications
+### 2.1 Design System Implementation
 
-#### Color Palette
-- Primary Background: #F5F5F5 (Light Grey)
-- Secondary Background: #E0E0E0 (Medium Grey)
-- Text and UI: #2C2C2C (Dark Grey)
-- Subtle Accents: #9B9B9B (Warm Grey)
-- Hover States: #8A8A8A
-- Text Overlay: rgba(0,0,0,0.6)
-- White: #FFFFFF (For contrast)
+#### Brand Implementation
+We'll implement the official Retrokraft brand identity throughout the Wix site:
+- Use Retrokraft logo in correct Navy Blue (#1D3E69) or white variations
+- Apply the official brand color palette through Wix theme customization
+- Implement Poppins and Roboto typography through Wix font manager
+- Create premium whitespace through padding adjustments
+- Configure UI components to reflect the Retrokraft aesthetic within Wix limitations
 
-#### Typography
-- Clean, modern sans-serif fonts
-- Hierarchical type scale for headings
-- Emphasis on readability
+#### Color Palette Implementation
+Implementing the official Retrokraft brand colors through Wix color settings:
+- Primary Navy Blue: #1D3E69 (RGB: 29, 62, 105) - Main brand color
+- Burnt Orange: #D95F02 (RGB: 217, 95, 2) - Accent color
+- Light Pink: #FFC0CB (RGB: 255, 192, 203) - Soft accent color 
+- Golden Yellow: #FFBB00 (RGB: 255, 187, 0) - Highlight color
+- Peach Cream: #FFE2C6 (RGB: 255, 226, 198) - Background color
+- White: #FFFFFF (RGB: 255, 255, 255) - For contrast and readability
+- Black: #000000 (RGB: 0, 0, 0) - For text and details
 
-### 2.2 Page Structure
+Color application principles (adapted for Wix):
+- Apply Navy Blue to headers, navigation, and footer backgrounds
+- Use Burnt Orange for CTA buttons and important highlights
+- Apply Light Pink and Golden Yellow sparingly as accent elements
+- Implement Peach Cream for content section backgrounds
+- Use white for text on dark backgrounds and clean UI elements
+- Apply black for primary text on light backgrounds
 
-#### Homepage
-- Full-width hero section with featured vehicles
-- Alternating layout between full-width features and grid displays
-- Minimal, sophisticated animations on scroll
-- Newsletter signup integration
-- Social media integration
-- Contact form section
+#### Typography Implementation
+Implementing the Retrokraft typography through Wix font settings:
+- Add Google Fonts to Wix: Poppins and Roboto
+- Create consistent text styles in Wix editor:
+  - Headings: Poppins (various weights)
+  - Body: Roboto (various weights)
+- Define and save text presets for:
+  - H1: Poppins Bold, 42px (desktop)/32px (mobile)
+  - H2: Poppins SemiBold, 32px (desktop)/28px (mobile)
+  - H3: Poppins Medium, 24px (desktop)/20px (mobile)
+  - H4: Poppins Regular, 20px (desktop)/18px (mobile)
+  - Body: Roboto Regular, 16px
+  - Small: Roboto Light, 14px
+  - Caption: Roboto Light, 12px
 
-#### Vehicle Grid Layout
-- Clean, responsive grid system
-- Minimal text overlay showing vehicle name
-- Hover state with "View Project" text
-- Filtering capabilities:
-  - Vehicle type (4x4, classic cars)
-  - Year of manufacture
-  - Brand
-  - Restoration completion date
+### 2.2 Page Structure Enhancement
 
-#### Individual Vehicle Pages
-- Large feature image
-- Comprehensive photo gallery
-- Auction link button
-- Detailed specifications table
-- Vehicle description and history
-- Related vehicles section
+#### Homepage Enhancement
+Transforming the current Wix homepage to a premium aesthetic:
 
-### 2.3 Content Management
-- Wix CMS setup for vehicle entries
-- Image optimization guidelines
-- Content update procedures
-- Blog post management
+**Current Issues to Address:**
+- Cluttered hero section
+- Inconsistent grid layouts
+- Insufficient whitespace
+- Competing call-to-action elements
+- Technical-focused rather than lifestyle/aspirational presentation
+
+**Enhancement Strategy:**
+- Replace hero image with high-quality cinematic photo featuring a premium restoration
+- Apply Navy Blue overlay to hero with minimal, impactful text in Poppins
+- Restructure featured vehicles section with consistent card styling
+- Use Wix's section dividers to create visual separation
+- Implement alternating content blocks with brand-consistent colors
+- Add subtle animations and transitions where Wix permits
+- Reduce content density and increase whitespace through padding
+- Create a consistent CTA strategy with Burnt Orange buttons
+
+#### Vehicle Listing Enhancement
+**Current Issues to Address:**
+- Inconsistent card sizes
+- Dense information presentation
+- Limited filtering capabilities
+- Utilitarian rather than premium feel
+
+**Enhancement Strategy:**
+- Use Wix Repeater to create consistent vehicle cards
+- Standardize image aspect ratios
+- Apply consistent typography and spacing
+- Add hover effects where possible
+- Enhance filtering options through Wix Dynamic Pages
+- Create clear visual hierarchy with Poppins for vehicle names
+- Implement Burnt Orange pricing display
+- Configure clean background with appropriate spacing
+- Add "Featured" flags for premium vehicles
+
+#### Individual Vehicle Page Enhancement
+**Current Issues to Address:**
+- Technical specification-heavy presentation
+- Small gallery images
+- Dense content without sufficient breathing room
+- Limited storytelling
+
+**Enhancement Strategy:**
+- Implement full-width hero image with vehicle name in Poppins
+- Use Wix Pro Gallery for enhanced photo presentation
+- Create tabbed or accordion sections for specifications
+- Restructure content to prioritize vehicle story and heritage
+- Add before/after sliders where available
+- Implement premium inquiry form with brand-consistent styling
+- Create related vehicles section with consistent card styling
+- Enhance mobile presentation through responsive adjustments
+
+### 2.3 Content Refinement Strategy
+- Revise copy to shift tone from technical to premium
+- Update photography with consistent styling and backgrounds
+- Create consistent vehicle description format focusing on:
+  - Heritage and significance
+  - Restoration quality
+  - Adventure potential
+  - Investment value
+- Organize technical specifications in expandable sections
+- Implement consistent call-to-action wording and placement
+- Ensure typography follows brand guidelines throughout
 
 ## 3. Project Schedule
 
-### Week 1-2: Learning Phase
-- Monday: Web development basics
-- Tuesday: HTML/CSS fundamentals
-- Wednesday: Wix platform basics
-- Thursday: Wix advanced features
-- Friday: Git basics & setup
-- Weekend: Review & practice
+### Week 1: Analysis & Planning
+- Monday: Wix template audit and customization capabilities assessment
+- Tuesday: Brand implementation planning within Wix
+- Wednesday: Content inventory and enhancement planning
+- Thursday: Wix app exploration and functionality assessment
+- Friday: Finalize enhancement strategy and priorities
 
-### Week 3-4: Main Development
-- Portfolio page layout
-- Section templates
-- Navigation system
-- Mobile responsiveness
-- Content structure
+### Week 2: Brand Implementation
+- Monday: Logo implementation and header/footer redesign
+- Tuesday: Color palette application throughout template
+- Wednesday: Typography implementation (Poppins/Roboto)
+- Thursday: Button and UI element styling
+- Friday: Review and refinement of brand implementation
 
-### Week 5-6: Detail Pages
-- Template development
-- Navigation implementation
-- Content structure
-- Mobile testing
+### Week 3: Layout Enhancement
+- Monday: Homepage hero section and featured vehicles grid
+- Tuesday: Vehicle listing page layout optimization
+- Wednesday: Vehicle detail page restructuring
+- Thursday: About/services page layout enhancement
+- Friday: Navigation and footer optimization
 
-### Week 7-8: Testing & Content
-- Test case creation
-- Playwright implementation
-- Content population
-- Cross-browser testing
+### Week 4: Content Enhancement
+- Monday: Vehicle gallery functionality improvement
+- Tuesday: Vehicle card design standardization
+- Wednesday: Specification display enhancement
+- Thursday: Form styling and interaction improvement
+- Friday: Call-to-action refinement across site
 
-### Week 9: Launch
-- Final QA testing
-- Documentation updates
-- Performance optimization
-- Launch preparation
+### Week 5: Testing & Refinement
+- Monday: Mobile responsiveness testing and adjustments
+- Tuesday: Cross-browser compatibility testing
+- Wednesday: Content review and text refinement
+- Thursday: Performance optimization within Wix
+- Friday: Final review and site publication
 
 ### Daily Structure (3PM - 5PM)
 - 15 min: Review & planning
 - 90 min: Main task work
-- 15 min: Documentation & commits
+- 15 min: Documentation & progress tracking
 
-## 4. GIT Progress Tracking
+## 4. Progress Tracking
 
-### 4.1 Branch Structure
+### 4.1 Daily Progress Template
 ```
-main           # Production-ready code
-├── development # Working branch
-└── content     # Content updates
-```
-
-### 4.2 Branching Conventions
-- Feature branches: `feature/[section-name]-[detail]`
-- Content branches: `content/[portfolio-item-number]`
-- Test branches: `test/[feature]-[test-type]`
-- Fix branches: `fix/[bug-identifier]`
-
-### 4.3 Commit Message Format
-```
-[type]: [brief description]
-
-[detailed description]
-
-Progress: [X/Y hours spent]/[estimated hours]
-```
-
-Types:
-- `setup`: Environment changes
-- `feat`: New features
-- `content`: Content updates
-- `test`: Testing changes
-- `fix`: Bug fixes
-- `docs`: Documentation
-
-### 4.4 Daily Progress Template
-```
-docs: daily progress [date]
+Daily Progress Report: [Date]
 
 Tasks Completed:
 - [task description]
 
-In Progress:
-- [task description] ([X]% complete)
+Challenges Encountered:
+- [description of any issues]
+
+Solutions Implemented:
+- [how issues were resolved]
+
+Tomorrow's Focus:
+- [planned tasks]
 
 Time Spent: [hours] hours
 Remaining Estimate: [hours] hours
 ```
 
-### 4.5 Progress Review Points
+### 4.2 Weekly Review Template
+```
+Weekly Progress Report: Week [#]
 
-#### Daily Review
-- End-of-day commit with progress summary
-- Task estimate updates
-- Blocker identification
+Completed Tasks:
+- [summary of completed work]
 
-#### Weekly Review
-- Progress markdown creation
-- Timeline updates
-- Estimate adjustments
+Design Decisions:
+- [key design choices made]
+
+Adjustments to Plan:
+- [any changes to schedule or approach]
+
+Next Week's Priorities:
+- [focus areas for coming week]
+
+Hours Spent: [X/50 total hours]
+```
 
 ## 5. Project Structure
 
 ### 5.1 Wix Site Structure
 ```
-📦 Classic Car Restoration Website
+📦 Classic4x4.com (Wix Enhanced Structure)
 ├── 📂 Pages
 │   ├── Home
-│   ├── Vehicle Grid (Portfolio)
-│   ├── Vehicle Detail Template
+│   ├── Vehicles (Collection)
+│   │   ├── Listing Page (Wix Collection Page)
+│   │   └── Detail Page (Wix Dynamic Item Page)
 │   ├── About
-│   ├── Blog
+│   │   ├── Company History
+│   │   ├── Team
+│   │   └── Philosophy
+│   ├── Services
+│   │   ├── Restoration Process
+│   │   ├── Services Offered
+│   │   └── Client Stories
+│   ├── Journal (Wix Blog)
+│   │   ├── Articles Listing
+│   │   └── Article Template
 │   └── Contact
 │
-├── 📂 Databases (Wix Collections)
-│   ├── Vehicles
-│   │   ├── Basic Info (make, model, year)
-│   │   ├── Specifications
-│   │   ├── Gallery Images
-│   │   ├── Auction Links
-│   │   └── Restoration Details
-│   ├── Blog Posts
-│   ├── Newsletter Subscribers
-│   └── Contact Form Submissions
-│
-├── 📂 Components
-│   ├── 📂 Layout
-│   │   ├── Header
-│   │   ├── Footer
-│   │   └── Navigation
+├── 📂 Wix Collections
+│   ├── Vehicles Collection
+│   │   ├── Data Fields
+│   │   │   ├── Name (text)
+│   │   │   ├── Year (number)
+│   │   │   ├── Make (text)
+│   │   │   ├── Model (text)
+│   │   │   ├── Price (number)
+│   │   │   ├── Mileage (number)
+│   │   │   ├── Engine (text)
+│   │   │   ├── Transmission (text)
+│   │   │   ├── Drivetrain (text)
+│   │   │   ├── ExteriorColor (text)
+│   │   │   ├── InteriorColor (text)
+│   │   │   ├── VIN (text)
+│   │   │   ├── Featured (boolean)
+│   │   │   ├── Restored (boolean)
+│   │   │   ├── VehicleStory (rich text)
+│   │   │   ├── RestorationJourney (rich text)
+│   │   │   ├── InvestmentPotential (rich text)
+│   │   │   ├── Specifications (rich text)
+│   │   │   └── Images (gallery)
+│   │   │
+│   │   └── Design
+│   │       ├── List Layout
+│   │       └── Item Page Layout
 │   │
-│   ├── 📂 Vehicle Components
-│   │   ├── Vehicle Card
-│   │   ├── Vehicle Gallery
-│   │   ├── Vehicle Specs Table
-│   │   └── Before/After Slider
-│   │
-│   └── 📂 Common Components
-│       ├── Newsletter Signup
-│       ├── Contact Form
-│       ├── Social Share Buttons
-│       └── Filter Bar
+│   └── Client Stories Collection
 │
-└── 📂 Assets
-    ├── 📂 Images
-    │   ├── Vehicle Photos
-    │   ├── Logo Files
-    │   └── UI Elements
-    │
-    └── 📂 Documents
-        └── Vehicle Documentation
+├── 📂 Design Elements
+│   ├── 📂 Saved Themes
+│   │   └── Retrokraft Theme
+│   │
+│   ├── 📂 Color Palette
+│   │   └── Retrokraft Colors
+│   │
+│   ├── 📂 Text Styles
+│   │   ├── Heading Styles (Poppins)
+│   │   └── Body Styles (Roboto)
+│   │
+│   └── 📂 Saved Components
+│       ├── Vehicle Card
+│       ├── Gallery Layout
+│       ├── Specification Layout
+│       ├── Inquiry Form
+│       └── Call-to-action Buttons
+│
+├── 📂 Assets
+│   ├── 📂 Images
+│   │   ├── Logos
+│   │   │   ├── retrokraft-navy.png
+│   │   │   ├── retrokraft-white.png
+│   │   │   └── retrokraft-icon.png
+│   │   ├── Vehicle Photography
+│   │   ├── Team Photos
+│   │   └── UI Elements
+│   │
+│   └── 📂 Videos
+│       ├── Restoration Process
+│       └── Vehicle Features
+│
+└── 📂 Wix Apps Integration
+    ├── Wix Pro Gallery
+    ├── Wix Forms
+    ├── Wix Chat
+    └── Wix SEO Tools
 ```
 
-### 5.2 Component Specifications
+### 5.2 Wix Collection Structure for Vehicles
+The vehicle collection will be configured with these fields to support premium presentation:
 
-#### Vehicle Collection Schema
-```javascript
-{
-  // Basic Information
-  make: String,
-  model: String,
-  year: Number,
-  
-  // Details
-  engineSpecs: String,
-  transmission: String,
-  mileage: Number,
-  
-  // Restoration
-  restorationDate: Date,
-  restorationDetails: Text,
-  beforeImages: [Image],
-  afterImages: [Image],
-  
-  // Auction
-  auctionLink: String,
-  auctionDate: Date,
-  estimatedValue: Number,
-  
-  // Meta
-  featured: Boolean,
-  category: ["Classic", "4x4"],
-  dateAdded: Date,
-  lastUpdated: Date
-}
+```
+Collection: Vehicles
+Fields:
+- Name (text): Primary vehicle name display
+- Year (number): Manufacturing year
+- Make (text): Vehicle manufacturer 
+- Model (text): Vehicle model
+- Price (number): Asking price with currency formatting
+- Mileage (number): Odometer reading
+- Engine (text): Engine specifications
+- Transmission (text): Transmission type
+- Drivetrain (text): 4x4 system details
+- ExteriorColor (text): Exterior color description
+- InteriorColor (text): Interior upholstery details
+- VIN (text): Vehicle identification number
+- Featured (boolean): Flag for featured vehicles
+- Restored (boolean): Indicates restoration completed
+- VehicleStory (rich text): Heritage and significance
+- RestorationJourney (rich text): Restoration process details
+- InvestmentPotential (rich text): Value proposition
+- Specifications (rich text): Detailed technical specifications
+- Images (gallery): Vehicle photography collection
 ```
 
-### 5.3 Integration Points
+## 6. Brand Implementation
 
-#### External Services
-- Newsletter Service
-- Contact Form Handler
-- Auction Platform Links
-- Social Media Integration
-- Analytics Integration
+### 6.1 Logo Placement
+- Header: Navy Blue logo on white background/White logo on Navy background
+- Footer: White logo on Navy Blue background
+- Favicon: Retrokraft icon
+- Loading screens: Centered icon with Navy Blue background
 
-#### Data Flow
-```
-User Input → Wix Forms → Database Collections → Dynamic Pages
-                      ↓
-              Email Notifications
-                      ↓
-            Analytics Tracking
-```
+### 6.2 Color Application
+- Primary site background: White (#FFFFFF)
+- Header background: Navy Blue (#1D3E69)
+- Footer background: Navy Blue (#1D3E69) 
+- Primary buttons: Burnt Orange (#D95F02)
+- Secondary buttons: Navy Blue (#1D3E69)
+- Section backgrounds: Alternating White (#FFFFFF) and Peach Cream (#FFE2C6)
+- Featured flags: Light Pink (#FFC0CB)
+- Highlight elements: Golden Yellow (#FFBB00)
+- Primary text: Black (#000000)
+- Light background text: Navy Blue (#1D3E69)
+- Dark background text: White (#FFFFFF)
 
-### 5.4 Responsive Breakpoints
-- Mobile: < 768px
-- Tablet: 768px - 1024px
-- Desktop: > 1024px
-- Large Desktop: > 1440px
-
-### 5.5 Asset Guidelines
-- Images
-  - Thumbnails: 400x300px
-  - Gallery: 1200x800px
-  - Hero: 1920x1080px
-  - Format: WebP with JPEG fallback
-  - Max file size: 200KB for thumbnails, 1MB for full-size
-- Icons
-  - Format: SVG
-  - Size: 24x24px base
-  - Style: Single color, configurable
-
-### 5.6 Performance Targets
-- Page Load: < 3s
-- Time to Interactive: < 4s
-- First Contentful Paint: < 2s
-- Core Web Vitals
-  - LCP: < 2.5s
-  - FID: < 100ms
-  - CLS: < 0.1
-
----
-
-*Note: This master plan is a living document. Updates and revisions will be tracked through Git following the outlined version control procedures.*
+### 6.3 Typography Application (Wix Text Styles)
+Create and save these text styles in Wix editor:
+- Page Title: Poppins Bold, 42px, #1D3E69
+- Section Heading: Poppins SemiBold, 32px, #1D3E69
+- Subsection Heading: Poppins Medium, 24px, #1D3E69
+- Card Heading: Poppins Regular, 20px, #1D3E69
+- Body Text: Roboto Regular, 16px, #000000
+- Small Text: Roboto Light, 14px, #495057
+- Caption: Roboto Light, 12px, #6C757D
+- Button Text: Poppins Medium, 14px, #FFFFFF
+- Price Display: Poppins SemiBold, 20px, #D95F02
